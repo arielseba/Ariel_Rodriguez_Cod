@@ -1,0 +1,6 @@
+div {
+  margin: 5px; }
+  div section {
+    padding: 5px; }
+    div section p {
+      color: blue; }
