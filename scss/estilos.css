@@ -3,6 +3,7 @@ ul li {
   font-family: 'Chakra Petch', sans-serif;
   color: #8f8f8f;
   position: relative;
+  
 }
 
 .imagena {
@@ -14,29 +15,33 @@ ul li {
   width: 100%;
   height: 700px;
 }
-
-.imagena__letra {
-  font-size: 3rem;
-  font-family: 'Chakra Petch', sans-serif;
-  color: #8f8f8f;
+.imgEmpresa{
+  width: 600px;
+  
 }
 
 .letra {
-  font-size: 3rem;
-  font-family: 'Chakra Petch', sans-serif;
-  color: #8f8f8f;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color:  #34675c;
+  text-align: center;
+  font-size: xx-large;
 }
 
 .letra_s {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Chakra Petch', sans-serif;
-  color: #8f8f8f;
+  color: #20948B;
+  font-size: x-large;
 }
 
-.letra_s:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.letra_f{
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  color:  white;
 }
+
+
 html {
   font-size: 62.5%;
   /*reseteo*/
@@ -45,112 +50,17 @@ html {
 .parrafo__letra {
   float: left;
   margin-right: 50px;
+  color: black;
 }
 
-.container12 {
-  display: -ms-grid;
-  display: grid;
-  border: 1px solid #8d8d8d;
-  margin-bottom: 2%;
-  background-image: -webkit-gradient(linear, right top, left top, from(#016601), to(#226322));
-  background-image: linear-gradient(to left, #016601, #226322);
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-}
 
-.element1 {
-  -ms-grid-row: 2;
-  grid-row: 2/2;
-  -ms-grid-column: 6;
-  grid-column: 6/6;
-  text-align: center;
-  width: auto;
-}
-
-.element2 {
-  -ms-grid-row: 2;
-  grid-row: 2/2;
-  -ms-grid-column: 7;
-  grid-column: 7/7;
-  text-align: center;
-  width: auto;
-}
-
-.element3 {
-  -ms-grid-row: 2;
-  grid-row: 2/2;
-  -ms-grid-column: 8;
-  grid-column: 8/8;
-  text-align: center;
-  width: auto;
-}
-
-.element4 {
-  -ms-grid-row: 2;
-  grid-row: 2/2;
-  -ms-grid-column: 9;
-  grid-column: 9/9;
-  text-align: center;
-  width: auto;
-}
-
-.element5 {
-  -ms-grid-row: 2;
-  grid-row: 2/2;
-  -ms-grid-column: 10;
-  grid-column: 10/10;
-  text-align: center;
-  width: auto;
-}
 
 a {
   color: beige;
 }
 
-.contenedor4 {
-  background-color: #312e2e;
-  font-family: 'Poppins', sans-serif;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 600px auto auto;
-      grid-template-columns: 600px auto auto;
-  font-size: 12px;
-  color: azure;
-  justify-items: auto;
-}
 
-.contenedor4__contacto {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 
-.contenedor4__redes {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-}
-
-.contenedor4__elegirnos {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.contenedorNews {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 40px 40px 600px;
-      grid-template-rows: 40px 40px 600px;
-  justify-items: auto;
-  row-gap: 20px;
-}
 
 .imagen_i:before {
   position: absolute;
@@ -172,4 +82,92 @@ a {
 .red-whatsapp:hover {
   opacity: 0.3;
 }
-/*# sourceMappingURL=estilos.css.map */
+
+.cardAriel{
+width: 30% ;
+height: 30% ;
+margin: 1%;
+margin-left: 2%;
+}
+
+.cardAriel:hover{
+transform: translateY( -30px );
+transition-duration: 1s;
+}
+
+
+
+/*mobile*/
+@media screen and (max-width:600px){
+
+  .cardAriel.card{
+    width: 400px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+      .imgEmpresa{
+      width: 100%;}
+
+      .letra {
+        font-family: 'Courier New', Courier, monospace;
+        color:  #34675c;
+        text-align:center;
+        font-size: large;
+      }
+      
+
+}
+/*tablet*/
+@media screen and (min-width:600px ){
+  .cardAriel.card{
+    width: 500px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;}
+  
+
+    
+  
+      .letra {
+        font-family: 'Courier New', Courier, monospace;
+        color:  #34675c;
+        text-align:center;
+        font-size: large;
+      }
+      
+
+}
+
+@media screen and ( min-width:768px ){
+  .cardAriel.card{
+    width: 600px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .letra {
+      font-size: 2rem;
+      font-family: 'Courier New', Courier, monospace;
+      color:  #34675c;
+      text-align: center;
+      font-size: xx-large;  }
+    
+}
+@media screen and ( min-width:992px ){
+  .letra {
+    font-family: 'Courier New', Courier, monospace;
+    color:  #34675c;
+    text-align: center;
+    font-size: 180%;
+      }
+    .cardAriel.card{
+      width: 350px;
+      justify-items: center;
+      margin-left: auto;
+      margin-right: auto;}
+.container.footer{
+  width: auto;
+}
+}

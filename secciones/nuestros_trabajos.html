@@ -12,7 +12,7 @@
 		<!--links-->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 		<link rel="shortcut icon" type="image/x-icon" href="../multimedia\arbol.ico" >
-		<link rel="stylesheet" href="../estilos\Estilos.css">
+		<link rel="stylesheet" href="../scss/estilos.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap" rel="stylesheet">
 		<!--scripts-->
@@ -21,58 +21,112 @@
 		<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/qc5B-qjP0QEimFYUxcpWJy5B/recaptcha__es_419.js" crossorigin="anonymous" integrity="sha384-CuI154LNj4qZVGh/OdniIEGOGqizY8C2n6R5VSe41wtDvxNyeqobkCrdQBQThfcE"></script>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="../js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		
 	</head>
 
-	<body style="background-color:gainsboro;" >
-	
-		
 
-		<nav class="navbar navbar-dark bg-dark" >
-			
+
+		<div class="navbar navbar-expand-lg navbar-light "  style="background-color:#6AB187">
+			<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<img src="../multimedia/BigGarden.png" style="margin-left: 5%;"  height="100"  >
 		
-			<div class="navbar navbar-expand-lg navbar-light " style="margin-bottom: 20px;">
-				<img  src="../multimedia/BigGarden.png"   height="120" >
-				<a class="nav-item nav-link active" style="margin-left: 230%; margin-top: auto; font-size: 15px;" aria-current="page" href="../Index.html">Home</a>
-				<a class="nav-item nav-link" style="margin-top: auto;font-size: 15px" href="Empresa.html">Empresa</a>
-				<a class="nav-item nav-link" style="margin-top: auto;font-size: 15px" href="Servicios.html">Servicios</a>
-				<a class="nav-item nav-link" style="margin-top: auto;font-size: 15px " href="nuestros_trabajos.html" >Nuestos Trabajos</a>
-				<a class="nav-item nav-link" style="margin-top: auto;font-size: 15px" href="Newsletter.html" >Newsletter</a>
+			<div class="collapse navbar-collapse"  id="navbarSupportedContent">
+					<a href="" class="col-6"></a>
+					<a class="nav-item nav-link active col-1" style=" margin-top: auto; font-size: 15px; " aria-current="page" href="../index.html">Home</a></li>
+				<a class="nav-item nav-link col-1" style="margin-top: auto;font-size: 15px;" href="Empresa.html">Empresa</a>
+				<a class="nav-item nav-link col-1" style="margin-top: auto;font-size: 15px;" href="Servicios.html">Servicios</a>
+				<a class="nav-item nav-link col-1" style="margin-top: auto;font-size: 15px ;" href="nuestros_trabajos.html" >Nuestos Trabajos</a>
+				<a class="nav-item nav-link col-1" style="margin-top: auto;font-size: 15px;text-align: center;" href="Newsletter.html" >Newsletter</a>
+					
+			</div>
+		</div>
+		
+	
+
+	
+		<div >
+			<h1 class="letra_s" style="text-align: center; position: relative; font-size: 500%;"> <br><br> Estos son algunos de nuestros trabajos</h1><br><br><br>	
+			
+			<div  id="carouselExampleControls" class="carousel slide w-50 data-bs-ride="carousel" style="margin-left: 25%; margin-bottom: 100px; " >
+				<div class="carousel-inner">
+	
+				  <div class="carousel-item active" >
+					<img src="../multimedia/t/t1.jpg" class="d-block w-100" alt="...">
+				  </div>
+				  
+				  <div class="carousel-item">
+					<img src="../multimedia/t/t2.jpg" class="d-block w-100" alt="...">
+				  </div>
+				 
+				  <div class="carousel-item">
+					<img src="../multimedia/t/t3.jpg" class="d-block w-100" alt="...">
+				  </div>
+				
+				  </div>
+				 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</a>
+			  </div>
+	
+		</div>
+
+		
+		<footer class="navbar navbar-light" style="background-color:#6AB187 ; margin-top: 5%"   >			
+				
+			<div class="container">
+				<div class="row">
+					
+							<div class="letra_f col-sm-12	col-md-5	col-lg-3 "  style="margin-bottom: 5%; margin-right: 15%;"  >
+								<h3 > <strong>Porque elegirnos?</strong></h3>
+								<p  >Nos enfocamos en brindar un servicio profesional de calidad. Somos especialistas en jardinería, mantenimiento de espacios verdes y paisajismo. Generamos soluciones para empresas y consorcios. Damos nueva vida a parques, jardines y piletas.</p>
+							</div>
+						
+							<div class="letra_f col-sm-12	col-md-5	col-lg-3" style=" display: grid ; margin-bottom: 5%;" >
+								
+									<h3 > <strong> Contacto </strong></h3>
+									<p >Tel: 011-6860-2774</p>
+									<p > Direccion: Acoyte 2650</p>
+									<p >Mail: BigGarden@gmail.com</p>
+								
+							</div>
+						
+							<div class=" container col-sm-4	col-md-5 col-lg-3  ">
+								<div class="row letra_f" >
+									<h3 style="margin-bottom: 8%; margin-right: 15%;" > <strong>Nuestras redes </strong></h3>
+							
+									<div class="row">
+										<div class="red-instagram col-xs-2 col-sm-4	col-md-5 col-lg-3" style="width: auto; padding: 6%;">
+											<div><a href="https://instagram.com/biggardenpaisajismo?gshid=1sf7bbgl4iijo" ><img  src="../multimedia\imagenes\logo_i.png " width="40"> 
+											<p>Instagram</p> </a>
+											</div>
+										</div>
+										
+										<div class= " red-facebook col-xs-4 col-sm-4	col-md-5	col-lg-3 " style="width: auto; padding: 6%;">
+											<div  ><a href="https://www.facebook.com/Big-garden-100121981437441/"><img src="../multimedia\imagenes\logo_f.png" width="40" >
+											<p>Facebook</p></a>
+											</div>
+										</div>
+										
+										<div class="red-whatsapp " style="width: auto; padding: 6%;">
+											<div > <a href="https://api.whatsapp.com/send?phone=541168602774&text=Hola,%20queria%20consultar%20por%20un%20servicio."><img src="../multimedia/imagenes/logo_w.png" width="40" > 
+											<p>  WhatsApp</p></a></div>
+										</div>	
+									</div>
+								</div>	 
+							</div>
+				</div>
 			</div>
 			
-		</nav>
-	
-
-	
-		<h1 class="letra_s" style="text-align: center; position: relative;"> <br><br> Estos son algunos de nuestros trabajos</h1><br><br><br>	
-		
-		
-
-
-
-		<div  id="carouselExampleControls" class="carousel slide w-50" data-bs-ride="carousel" style="margin-left: 25%; margin-bottom: 100px;" >
-			<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img src="../multimedia/t/t1.jpg" class="d-block w-100" alt="...">
-			  </div>
-			  
-			  <div class="carousel-item">
-				<img src="../multimedia/t/t2.jpg" class="d-block w-100" alt="...">
-			  </div>
-			 
-			  <div class="carousel-item">
-				<img src="../multimedia/t/t3.jpg" class="d-block w-100" alt="...">
-			  </div>
-			
-			  </div>
-			 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			  <span class="visually-hidden">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  <span class="visually-hidden">Next</span>
-			</a>
-		  </div>
+	</footer>	
 
 		
 		
