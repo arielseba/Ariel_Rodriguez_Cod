@@ -80,7 +80,8 @@ transition-duration: 1s;
   margin-left: auto;
   margin-right: auto;}
   .imgEmpresa{
-  width: 100%;}
+  width: 100%;
+  margin-bottom: 5%;}
   .letra{
   font-family: 'Courier New', Courier, monospace;
   color:  #34675c;
@@ -101,18 +102,15 @@ transition-duration: 1s;
   font-size: large;}
   }
 
-@media screen and ( min-width:768px ){
-  .cardAriel.card{
-  width: 600px;
-  justify-items: center;
-  margin-left: auto;
-  margin-right: auto;}
-  .letra {
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-  color:  #34675c;
-  text-align: center;
-  font-size: xx-large;}
+  @media screen and ( min-width:768px ){
+    .letra {
+    font-family: 'Courier New', Courier, monospace;
+    color:  #34675c;
+    text-align: center;
+    font-size: x-large;}
+    .imgEmpresa{
+    margin-left: 10%;
+    margin-bottom: 5%;}
   }
 
 @media screen and ( min-width:992px ){
@@ -120,7 +118,7 @@ transition-duration: 1s;
   font-family: 'Courier New', Courier, monospace;
   color:  #34675c;
   text-align: center;
-  font-size: 180%;}
+  font-size: x-large;}
   .cardAriel.card{
   width: 350px;
   justify-items: center;
@@ -130,6 +128,9 @@ transition-duration: 1s;
   width: auto;}
   .carousel.slide{
   width: 75%;}
-  .letra{
-  font-size: x-large;}
+  .imgEmpresa{
+    width: 110%;}
+  .letra.q{
+    font-size: 192%; 
+    margin-left: 15%;}
 }
