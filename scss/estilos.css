@@ -3,9 +3,7 @@ ul li {
   font-family: 'Chakra Petch', sans-serif;
   color: #8f8f8f;
   position: relative;
-  
 }
-
 .imagena {
   background-image: url(../multimedia/das.png);
   background-color: #141414;
@@ -17,51 +15,36 @@ ul li {
 }
 .imgEmpresa{
   width: 600px;
-  
 }
-
 .letra {
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+   font-family: 'Courier New', Courier, monospace;
   color:  #34675c;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
 }
-
 .letra_s {
   font-size: 2rem;
   font-family: 'Chakra Petch', sans-serif;
   color: #20948B;
   font-size: x-large;
 }
-
 .letra_f{
   font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   color:  white;
 }
-
-
 html {
   font-size: 62.5%;
   /*reseteo*/
 }
-
 .parrafo__letra {
   float: left;
   margin-right: 50px;
   color: black;
 }
-
-
-
 a {
   color: beige;
 }
-
-
-
-
 .imagen_i:before {
   position: absolute;
   width: 100%;
@@ -70,104 +53,83 @@ a {
   opacity: 0.6;
   top: 0;
 }
-
 .red-facebook:hover {
   opacity: 0.3;
 }
-
 .red-instagram:hover {
   opacity: 0.3;
 }
-
 .red-whatsapp:hover {
   opacity: 0.3;
 }
-
 .cardAriel{
 width: 30% ;
 height: 30% ;
 margin: 1%;
 margin-left: 2%;
 }
-
 .cardAriel:hover{
 transform: translateY( -30px );
 transition-duration: 1s;
 }
-
-
-
 /*mobile*/
 @media screen and (max-width:600px){
-
   .cardAriel.card{
-    width: 400px;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;}
-
-
-      .imgEmpresa{
-      width: 100%;}
-
-      .letra {
-        font-family: 'Courier New', Courier, monospace;
-        color:  #34675c;
-        text-align:center;
-        font-size: large;
-      }
-      
-
+  width: 400px;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;}
+  .imgEmpresa{
+  width: 100%;}
+  .letra{
+  font-family: 'Courier New', Courier, monospace;
+  color:  #34675c;
+  text-align:center;
+  font-size: large;}
 }
-/*tablet*/
+ /*tablet*/
 @media screen and (min-width:600px ){
   .cardAriel.card{
-    width: 500px;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;}
-  
-
-    
-  
-      .letra {
-        font-family: 'Courier New', Courier, monospace;
-        color:  #34675c;
-        text-align:center;
-        font-size: large;
-      }
-      
-
-}
+  width: 500px;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;}
+  .letra {
+  font-family: 'Courier New', Courier, monospace;
+  color:  #34675c;
+  text-align:center;
+  font-size: large;}
+  }
 
 @media screen and ( min-width:768px ){
   .cardAriel.card{
-    width: 600px;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;}
-    
-    .letra {
-      font-size: 2rem;
-      font-family: 'Courier New', Courier, monospace;
-      color:  #34675c;
-      text-align: center;
-      font-size: xx-large;  }
-    
-}
+  width: 600px;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;}
+  .letra {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color:  #34675c;
+  text-align: center;
+  font-size: xx-large;}
+  }
+
 @media screen and ( min-width:992px ){
   .letra {
-    font-family: 'Courier New', Courier, monospace;
-    color:  #34675c;
-    text-align: center;
-    font-size: 180%;
-      }
-    .cardAriel.card{
-      width: 350px;
-      justify-items: center;
-      margin-left: auto;
-      margin-right: auto;}
-.container.footer{
-  width: auto;
-}
+  font-family: 'Courier New', Courier, monospace;
+  color:  #34675c;
+  text-align: center;
+  font-size: 180%;}
+  .cardAriel.card{
+  width: 350px;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;}
+  .container.footer{
+  width: auto;}
+  .carousel.slide{
+  width: 75%;}
+  .letra{
+  font-size: x-large;}
 }
